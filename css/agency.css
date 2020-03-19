@@ -21,6 +21,10 @@ a:hover {
   color: #1a8bbb;
 }
 
+ul {
+  margin-top: -25px;
+}
+
 .text-primary {
   color: #27AAE1 !important;
 }
@@ -73,6 +77,7 @@ section h3.section-subheading {
 .btn-primary {
   background-color: #27AAE1;
   border-color: #27AAE1;
+  margin-top: 5px;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -122,6 +127,10 @@ img::-moz-selection {
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #1a8bbb;
+}
+
+#mainNav .navbar-nav {
+  margin-top: 25px;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
