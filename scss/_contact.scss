@@ -2,11 +2,12 @@
 section#contact {
   background-color: $gray-900;
   background-image: linear-gradient(
-          rgba(0, 0, 0, 0.3), 
-          rgba(0, 0, 0, 0.7)
-        ), url('../img/children-win.jpg');
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.4)
+        ), url('../img/contact-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   .section-heading {
     color: $white;
   }
