@@ -33,6 +33,12 @@ h6 {
   @include heading-font;
 }
 
+figcaption {
+  margin-top: -25px;
+	text-align: center;
+	font-style: italic;
+}
+
 section {
   padding: 100px 0;
   h2.section-heading {

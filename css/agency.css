@@ -39,6 +39,12 @@ h6 {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+figcaption {
+  margin-top: -25px;
+  text-align: center;
+  font-style: italic;
+}
+
 section {
   padding: 100px 0;
 }
