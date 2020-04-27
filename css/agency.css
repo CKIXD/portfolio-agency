@@ -236,6 +236,17 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+#portfolio {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url("../img/header-bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/header-bg.jpg");
+  background-color: #212529;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
