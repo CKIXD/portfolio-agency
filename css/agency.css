@@ -362,6 +362,10 @@ header.masthead .intro-text .intro-heading {
   cursor: pointer;
 }
 
+.portfolio-modal .modal-content audio {
+  margin: 0 auto 30px;
+}
+
 .portfolio-modal .close-modal {
   position: absolute;
   top: 25px;
