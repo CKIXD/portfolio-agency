@@ -626,7 +626,7 @@ for 5000 employees while saving money.</li>
 							</figcaption>
 						</figure>
 					</a>
-					<h3 class="section-subheading">For a Good Partner, Talk to Lots of Partners</h3>
+					<h2>For a Good Partner, Talk to Lots of Partners</h2>
 					<p class="item-intro text-muted">Project Selection: First Semester, Weeks 3-5</p>
 					<div class="row">
 						<div class="col-md-6 col-sm-6">
@@ -642,7 +642,7 @@ for 5000 employees while saving money.</li>
 							<p>Another team in our class hadn't found a project partner, so I introduced them to one of the partners we didn’t select. They completed a capstone project together. Further conversation with another potential partner led to my summer internship.</p>
 						</div>
 					</div>
-					<h3 class="section-subheading">Welcome to Fort Ben</h3>
+					<h2>Welcome to Fort Ben</h2>
 					<p class="item-intro text-muted">Research: First Semester, Weeks 6-11</p>
 					<p>We met to kick off the project with Schneider Geospatial, and their client for the project, Arts for Lawrence. We established a weekly meeting schedule, alternating between online Zoom meetings and in-person meetings at Schneider’s office. We employed my business analyst experience to understand requirements for the project.</p>
 					<p><strong>Fort Benjamin Harrison</strong> was a US Army base in Lawrence, Indiana, operating from 1906 to 1995. 1700 acres of the fort became Fort Harrison State Park. The remaining acreage is residential, office, and retail spaces in the former military structures. Arts for Lawrence had received a grant to turn part of that space into a cultural campus, celebrating the fort’s history and the work of local artists.</p>
@@ -696,7 +696,7 @@ for 5000 employees while saving money.</li>
 						</div>
 					</div>
 					<p>Arts for Lawrence held a community meeting about the cultural campus grant. I led a presentation about our project. We requested attendees to fill out a survey about their relationship with Fort Ben and interest in the app. We received <strong>31 survey responses</strong>.</p>
-					<h3 class="section-subheading">Bringing History to Life</h3>
+					<h2>Bringing History to Life</h2>
 					<p class="item-intro text-muted">Analysis & Ideation: First Semester, Weeks 12-16</p>
 					<figure>
 						<img class="img-fluid d-block mx-auto" src="https://ckixd.com/ftben/ResearchAffinityMap.jpg">
@@ -766,6 +766,62 @@ for 5000 employees while saving money.</li>
 					</div>
 					<p>After presenting these storyboards to our partners, we settled on a feature to provide <strong>fictional characters as virtual guides</strong>. They would lead the users on walking tours, while describing their historical experiences at Fort Ben. The bronze boot prints would be recognized as stops on these tours. These guides could thus introduce Ashley to Fort Ben’s history, as well as tell stories to Bill’s guests.</p>
 					<p>This concluded our first semester on the project. We refined our storyboards. I wrote our research and analysis report. We presented our findings to our class and our partners.</p>
+					<h2>Experiments in Augmented Reality</h2>
+					<p class="item-intro text-muted">Prototyping: Second Semester, Weeks 2-11</p>
+					<p>I led a <strong>task analysis</strong> exercise to identify the steps required to complete two features:</p>
+					<ul>
+						<li>Take day-in-the-life tour with a virtual guide</li>
+						<li>View a historical timeline of a location, and align historical images</li>
+					</ul>
+					<figure>
+						<img class="img-fluid d-block mx-auto" src="https://ckixd.com/ftben/LoFiDay.png">
+						<figcaption>
+								Lo-fi prototype of the Day-in-the-Life feature.
+						</figcaption>
+					</figure>
+					<figure>
+						<img class="img-fluid d-block mx-auto" src="https://ckixd.com/ftben/LoFiTimeline.png">
+						<figcaption>
+								Lo-fi prototype of the Historical Timeline feature.
+						</figcaption>
+					</figure>
+					<p>From those steps we remotely collaborated on a <strong>low-fidelity prototype in Adobe XD</strong>, and demonstrated it to our partners. The resulting discussion revealed some concerns about the photo alignment feature:</p>
+					<ul>
+						<li>Mobile device positioning sensors <strong>aren’t precise enough</strong> for the app to recognize when the image was correctly aligned.</li>
+						<li>As users attempted to align the images, they might <strong>intrude</strong> on private property, <strong>block</strong> traffic on sidewalks, or even <strong>wander</strong> into the street.</li>
+						<li>Our design showed the historical photo laid over the current view from the device’s camera. We provided a slider to control the opacity of the photo, but we <strong>weren’t confident that users would understand</strong> that concept.</li>
+					</ul>
+					<p>About this time, Monica experienced serious health problems which temporarily <strong>removed her from the project</strong>. And Evi and I <strong>disagreed upon the technology</strong> to use for our next prototype.</p>
+					<ul>
+						<li>Evi wanted to simulate the photo alignment feature using Torch AR, a prototyping tool.</li>
+						<li>I had already experimented with AR using Unity, and thought I could quickly code a working prototype that would be more enlightening than a simulation.</li>
+					</ul>
+					<p>We agreed to each <strong>create our own prototype</strong> for one week. At our next partner meeting, we demonstrated both prototypes. Both of them worked, but Evi did not want to use Unity. She volunteered to develop our high-fidelity prototype if she could use the prototyping tool of her choice. She later abandoned Torch AR in favor of ProtoPie, and ultimately created our testing prototype with Sketch and Principle.</p>
+					<a target="_blank" href="https://ckixd.com/ftben/HiFiTest.mp4">
+						<figure>
+							<img class="img-fluid d-block mx-auto" src="https://ckixd.com/ftben/HiFiTest.png">
+								<figcaption>
+									Click to see the hi-fi prototype of our Historical Timeline feature.
+							</figcaption>
+						</figure>
+					</a>
+					<h2>Testing in the Cold</h2>
+					<p class="item-intro text-muted">User Testing: Second Semester, Weeks 9-14</p>
+					<p>While Evi developed the high-fidelity prototype, I wrote our <strong>user test protocols</strong> and <strong>recruited participants</strong>. The test consisted of the following parts:</p>
+					<ol>
+						<li>Meet at the Fort Ben community campus. Go through a brief orientation and pre-scenario interview. Begin audio recording.</li>
+						<li>Day-in-the-Life scenario: Follow overhead map directions to a historical location. Experience the location according to a virtual guide’s description. Participant was to think aloud.</li>
+						<li>Historical Timeline scenario. Return to the starting location to look at information about the Theater at the Fort. Align the Theater’s current appearance with a historical photo. Participant was to think aloud.</li>
+						<li>End of session questionnaire, followed by a brief post-scenario interview.</li>
+					</ol>
+					<p>We conducted a <strong>pilot test</strong> with our instructor. That November was already quite cold and windy, so we <strong>halved the walking distance</strong> to the first test location. I also arranged for permission to begin and end all tests in the lobby of the Theater at the Fort, to <strong>protect our participants from the weather</strong>. I canceled two scheduled sessions because the participants <strong>came down sick</strong>. One of our test sessions was postponed due to an <strong>early blizzard</strong>.</p>
+					<figure>
+						<img class="img-fluid d-block mx-auto" src="https://ckixd.com/ftben/FortBenSnow.jpg">
+						<figcaption>
+								Our user testing conditions.
+						</figcaption>
+					</figure>
+
 					
 					<!-- Old project writeup, with insufficient detail.
 					<p>Arts for Lawrence won a $5.8M endowment to promote the history and culture of the former Fort Benjamin Harrison military base. They hired Schneider Geospatial to develop a history-focused augmented reality mobile app. Schneider needed a design to guide their development. They agreed to let our IUPUI capstone team help.</p>
